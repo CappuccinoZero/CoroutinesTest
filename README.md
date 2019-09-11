@@ -2,7 +2,7 @@
 ## 使用Kotlin协程来替换RxJava2设计的Mvvm模式简单Demo
 
 
-在使用Retrofit处理响应后，可以通过如下处理
+在使用Retrofit获得网络响应后，可以通过如下处理
 ```
     private suspend fun <T> Call<T>.await():T{
         return suspendCoroutine {
