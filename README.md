@@ -27,7 +27,7 @@
     }
 ```
 
-或许也可以通过它来达到rxjava map的功能
+map
 ```
     private suspend fun Call<ContentBean>.await():ArrayList<Data>{
         return suspendCoroutine {
